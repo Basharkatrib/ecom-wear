@@ -1,0 +1,18 @@
+@media (max-width: 500px) {
+    section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .container {
+        padding: 1; 
+        width: 100%; 
+        max-width: 100%; 
+    }
+
+
+  
+}
+
+

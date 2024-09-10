@@ -1,0 +1,12 @@
+@media(max-width: 500px){
+    .feature_top{
+        flex-direction: column;
+    }
+    .feature_image{
+        width: 100%;
+    }
+    .feature_image img{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}

@@ -1,0 +1,13 @@
+@media(max-width:500px) {
+    .logo {
+        position: absolute;
+        top: 0px;
+        right: 15px;
+        
+    }
+
+    .nav_item.open {
+        margin-left: 90px;
+        margin-top: -50px; 
+    }
+}

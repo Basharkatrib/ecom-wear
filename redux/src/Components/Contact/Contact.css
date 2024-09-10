@@ -1,0 +1,15 @@
+@media(max-width: 500px) {
+    .contact {
+        flex-direction: column;
+        height: 100px;
+        padding: 5px;
+    }
+
+    .contact > * { 
+        margin-bottom: 10px; 
+    }
+
+    .contact > *:last-child {
+        margin-bottom: 0; 
+    }
+}

@@ -1,0 +1,41 @@
+.container{
+    overflow-x: hidden;
+}
+.story-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.story-image {
+    clip-path: polygon(21% 11%, 100% 0%, 99% 100%, 0% 100%);
+    width: 50%;
+    height: 300px;
+}
+
+/* توزيع العناصر */
+.image-left {
+    flex-direction: row-reverse; 
+}
+
+.image-right {
+    flex-direction: row; 
+}
+
+/* للشاشات الأصغر من 500px */
+@media (max-width: 500px) {
+    .story-item {
+        flex-direction: column; 
+        align-items: center;
+    }
+
+    .story-image {
+        width: 100%; 
+        height: 300px; 
+        margin-bottom: 1rem; 
+        clip-path: none; 
+    }
+
+    .story-text {
+        text-align: center; 
+    }
+}
