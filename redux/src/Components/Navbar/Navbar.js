@@ -111,7 +111,7 @@ export default function Navbar() {
         <nav className="flex-no-wrap relative flex w-full items-center justify-between bg-zinc-50 py-2 shadow-dark-mild dark:bg-neutral-700 lg:flex-wrap lg:justify-start lg:py-4">
             <div className="flex w-full flex-wrap items-center justify-between px-3">
                 <button
-                    className="block border-0 bg-transparent px-2 text-black/50 hover:no-underline hover:shadow-none focus:no-underline focus:shadow-none focus:outline-none focus:ring-0 dark:text-neutral-200 lg:hidden"
+                    className="block border-0 bg-transparent px-2 text-white hover:no-underline hover:shadow-none focus:no-underline focus:shadow-none focus:outline-none focus:ring-0 dark:text-neutral-200 lg:hidden"
                     type="button"
                     data-twe-collapse-init
                     data-twe-target="#navbarSupportedContent1"
@@ -133,15 +133,15 @@ export default function Navbar() {
                 <div className="!visible hidden flex-grow basis-[100%] items-center lg:!flex lg:basis-auto" id="navbarSupportedContent1" data-twe-collapse-item>
                     <Link to="/">
                         <div
-                            className="logo mb-4 me-5 ms-2 mt-3 flex items-center text-neutral-900 hover:text-neutral-900 focus:text-neutral-900 dark:text-neutral-200 dark:hover:text-neutral-400 dark:focus:text-neutral-400 lg:mb-0 lg:mt-0"
+                            className="logo mb-4 mt-3 flex items-center text-neutral-900 hover:text-neutral-900 focus:text-neutral-900 dark:text-neutral-200 dark:hover:text-neutral-400 dark:focus:text-neutral-400 lg:mb-0 lg:mt-0"
                         >
-                            <img
+                            {/* <img
                                 src={logo}
                                 style={{ height: '30px', marginRight: '8px' }}
                                 alt="Store Logo"
                                 loading="lazy"
-                            />
-                            <span className="text-lg font-semibold">BASHAR STORE</span>
+                            /> */}
+                            <i className="text-lg text-blue-800 font-semibold">BASHAR <span className=' text-red-800'>STORE</span></i>
                         </div>
                     </Link>
 

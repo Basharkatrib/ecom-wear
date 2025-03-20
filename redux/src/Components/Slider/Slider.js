@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import { Carousel, initTWE } from 'tw-elements';
-import R from '../../images/R.png';
+import glop from '../../images/glop.jpeg';
 export default function Slider() {
   useEffect(() => {
     initTWE({ Carousel });
@@ -53,7 +53,7 @@ export default function Slider() {
           data-twe-carousel-item
         >
           <img
-            src={R}
+            src={glop}
             className="block w-full h-full "
             alt="Camera"
           />
